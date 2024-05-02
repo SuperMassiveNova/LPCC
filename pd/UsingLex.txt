@@ -1,0 +1,23 @@
+To install flex
+
+sudo apt-get update
+sudo apt-get install flex
+
+
+To intall GCC
+
+sudo apt update
+sudo apt install gcc
+sudo apt install build-essential
+gcc --version
+
+
+
+To run .l
+
+lex file_name.l
+gcc -lfl lex.yy.c
+./a.out
+
+
+Ctrl + C for exit from program
